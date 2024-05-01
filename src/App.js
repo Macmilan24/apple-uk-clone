@@ -1,10 +1,14 @@
-
+import { Navbar } from './containers/NavBar/navbar.container';
+import { Hero } from './containers/hero/hero.componet';
 import './App.css';
+import { Unit } from './containers/unit/Unit.container';
 
 function App() {
   return (
     <div className="App">
-      <span class="visuallyhidden">Apple&nbsp;Watch Series&nbsp;9</span>
+      <Navbar />
+      <Hero />
+      <Unit />
     </div>
   );
 }

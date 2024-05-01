@@ -1,0 +1,61 @@
+.unit__content {
+  display: grid;
+  padding-top: 11px;
+  grid-template-columns: 1fr 1fr;
+  gap: 11px;
+}
+
+.card-2nd,
+.card-4th {
+  color: #fff;
+}
+
+.unit .card__content--headline {
+  font-size: 37px;
+  line-height: 1.07143;
+  font-weight: 600;
+}
+
+.unit .card__content--subhead {
+  font-size: 21px;
+  line-height: 1.14286;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+.unit .card__content--link__learn {
+  background: #0071e3;
+  border-color: rgba(0, 0, 0, 0);
+  font-size: 14px;
+  border-radius: 980px;
+  line-height: 1.17648;
+  font-weight: 400;
+  border-style: solid;
+  border-width: 1px;
+  min-width: 28px;
+  padding-inline: 15px;
+  padding-block: 7px;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.unit .card__content--link__buy {
+  border-color: #0071e3;
+  font-size: 14px;
+  border-radius: 980px;
+  line-height: 1.17648;
+  font-weight: 400;
+  border-style: solid;
+  border-width: 1px;
+  min-width: 28px;
+  padding-inline: 15px;
+  padding-block: 7px;
+  text-decoration: none;
+  color: #0071e3;
+}
+
+.unit .card__content--link__buy:hover {
+  background: #0071e3;
+  color: #fff;
+}

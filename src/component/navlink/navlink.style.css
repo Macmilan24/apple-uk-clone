@@ -1,0 +1,10 @@
+
+.Navlink__container{
+    display: flex;
+    align-items: start;
+    list-style: none;
+}
+.Navlink__container--link{
+    font-weight: 400;
+    padding-inline: 20px;
+}
