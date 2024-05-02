@@ -59,3 +59,8 @@
   background: #0071e3;
   color: #fff;
 }
+ @media screen and (max-width: 720px) {
+  .unit__content{
+    grid-template-columns: 1fr;
+  }
+ }
