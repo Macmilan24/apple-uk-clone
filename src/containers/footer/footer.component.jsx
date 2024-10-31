@@ -71,7 +71,7 @@ const Footer = () => {
             >
               {section.links.map((link, idx) => (
                 <li key={idx}>
-                  <a href="#">{link}</a>
+                  <a href="#a">{link}</a>
                 </li>
               ))}
             </ul>
